@@ -7,6 +7,7 @@ ChenKun Zhang
 Honghao Yu
 
 Abstract:
+
 The multi-agent path finding (MAPF) problem is finding a solution of paths for
 multiple agents in a 2D map with no collision at all. At present, CBS is a more
 effective method to find the optimal solution. However, CBS algorithm has the
