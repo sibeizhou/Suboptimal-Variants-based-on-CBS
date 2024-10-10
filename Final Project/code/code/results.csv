@@ -1,0 +1,430 @@
+instances/largeTest_1.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h1
+CPU time (s):           1.76
+Sum of costs:           151
+Expanded nodes:         416
+Generated nodes:        831
+
+
+instances/largeTest_2.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h1
+CPU time (s):           60.68
+Sum of costs:           129
+Expanded nodes:         26414
+Generated nodes:        52827
+
+
+instances/largeTest_3.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h1
+CPU time (s):           46.39
+Sum of costs:           135
+Expanded nodes:         13742
+Generated nodes:        27483
+
+
+instances/test_40.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h1
+CPU time (s):           0.00
+Sum of costs:           24
+Expanded nodes:         2
+Generated nodes:        3
+
+
+instances/test_41.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h1
+CPU time (s):           0.28
+Sum of costs:           45
+Expanded nodes:         407
+Generated nodes:        813
+
+
+instances/test_42.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h1
+CPU time (s):           0.21
+Sum of costs:           57
+Expanded nodes:         322
+Generated nodes:        643
+
+
+instances/test_43.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h1
+CPU time (s):           0.01
+Sum of costs:           43
+Expanded nodes:         7
+Generated nodes:        13
+
+
+instances/test_44.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h1
+CPU time (s):           0.00
+Sum of costs:           33
+Expanded nodes:         11
+Generated nodes:        21
+
+
+instances/test_45.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h1
+CPU time (s):           0.00
+Sum of costs:           24
+Expanded nodes:         2
+Generated nodes:        3
+
+
+instances/test_46.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h1
+CPU time (s):           0.02
+Sum of costs:           57
+Expanded nodes:         29
+Generated nodes:        57
+
+
+instances/test_47.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h1
+CPU time (s):           207.26
+Sum of costs:           65
+Expanded nodes:         197429
+Generated nodes:        394857
+
+
+instances/test_48.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h1
+CPU time (s):           0.00
+Sum of costs:           36
+Expanded nodes:         5
+Generated nodes:        9
+
+
+instances/test_49.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h1
+CPU time (s):           0.00
+Sum of costs:           42
+Expanded nodes:         7
+Generated nodes:        13
+
+
+instances/test_50.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h1
+CPU time (s):           0.02
+Sum of costs:           48
+Expanded nodes:         13
+Generated nodes:        25
+
+
+instances/largeTest_1.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h2
+CPU time (s):           1.75
+Sum of costs:           151
+Expanded nodes:         416
+Generated nodes:        831
+
+
+instances/largeTest_2.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h2
+CPU time (s):           61.09
+Sum of costs:           129
+Expanded nodes:         26414
+Generated nodes:        52827
+
+
+instances/largeTest_3.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h2
+CPU time (s):           46.83
+Sum of costs:           135
+Expanded nodes:         13742
+Generated nodes:        27483
+
+
+instances/test_40.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h2
+CPU time (s):           0.00
+Sum of costs:           24
+Expanded nodes:         2
+Generated nodes:        3
+
+
+instances/test_41.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h2
+CPU time (s):           0.29
+Sum of costs:           45
+Expanded nodes:         407
+Generated nodes:        813
+
+
+instances/test_42.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h2
+CPU time (s):           0.21
+Sum of costs:           57
+Expanded nodes:         322
+Generated nodes:        643
+
+
+instances/test_43.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h2
+CPU time (s):           0.01
+Sum of costs:           43
+Expanded nodes:         7
+Generated nodes:        13
+
+
+instances/test_44.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h2
+CPU time (s):           0.00
+Sum of costs:           33
+Expanded nodes:         11
+Generated nodes:        21
+
+
+instances/test_45.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h2
+CPU time (s):           0.00
+Sum of costs:           24
+Expanded nodes:         2
+Generated nodes:        3
+
+
+instances/test_46.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h2
+CPU time (s):           0.02
+Sum of costs:           57
+Expanded nodes:         29
+Generated nodes:        57
+
+
+instances/test_47.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h2
+CPU time (s):           207.22
+Sum of costs:           65
+Expanded nodes:         197429
+Generated nodes:        394857
+
+
+instances/test_48.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h2
+CPU time (s):           0.00
+Sum of costs:           36
+Expanded nodes:         5
+Generated nodes:        9
+
+
+instances/test_49.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h2
+CPU time (s):           0.00
+Sum of costs:           42
+Expanded nodes:         7
+Generated nodes:        13
+
+
+instances/test_50.txt
+Method used:            CBS
+Weight used (high/low): 1/1
+Heuristics for h_c:     h2
+CPU time (s):           0.02
+Sum of costs:           48
+Expanded nodes:         13
+Generated nodes:        25
+
+
+instances/largeTest_1.txt
+Method used:            BCBS
+Weight used (high/low): 1/1.2
+Heuristics for h_c:     h1
+CPU time (s):           9.81
+Sum of costs:           151
+Expanded nodes:         611
+Generated nodes:        1221
+
+
+instances/largeTest_2.txt
+Method used:            BCBS
+Weight used (high/low): 1/1.2
+Heuristics for h_c:     h1
+CPU time (s):           27.86
+Sum of costs:           129
+Expanded nodes:         4109
+Generated nodes:        8217
+
+
+instances/largeTest_3.txt
+Method used:            BCBS
+Weight used (high/low): 1/1.2
+Heuristics for h_c:     h1
+CPU time (s):           7.28
+Sum of costs:           135
+Expanded nodes:         629
+Generated nodes:        1257
+
+
+instances/test_40.txt
+Method used:            BCBS
+Weight used (high/low): 1/1.2
+Heuristics for h_c:     h1
+CPU time (s):           0.00
+Sum of costs:           24
+Expanded nodes:         2
+Generated nodes:        3
+
+
+instances/test_41.txt
+Method used:            BCBS
+Weight used (high/low): 1/1.2
+Heuristics for h_c:     h1
+CPU time (s):           0.48
+Sum of costs:           45
+Expanded nodes:         210
+Generated nodes:        400
+
+
+instances/test_42.txt
+Method used:            BCBS
+Weight used (high/low): 1/1.2
+Heuristics for h_c:     h1
+CPU time (s):           0.44
+Sum of costs:           57
+Expanded nodes:         199
+Generated nodes:        397
+
+
+instances/test_43.txt
+Method used:            BCBS
+Weight used (high/low): 1/1.2
+Heuristics for h_c:     h1
+CPU time (s):           0.04
+Sum of costs:           43
+Expanded nodes:         13
+Generated nodes:        17
+
+
+instances/test_44.txt
+Method used:            BCBS
+Weight used (high/low): 1/1.2
+Heuristics for h_c:     h1
+CPU time (s):           0.00
+Sum of costs:           33
+Expanded nodes:         4
+Generated nodes:        7
+
+
+instances/test_45.txt
+Method used:            BCBS
+Weight used (high/low): 1/1.2
+Heuristics for h_c:     h1
+CPU time (s):           0.00
+Sum of costs:           24
+Expanded nodes:         2
+Generated nodes:        3
+
+
+instances/test_46.txt
+Method used:            BCBS
+Weight used (high/low): 1/1.2
+Heuristics for h_c:     h1
+CPU time (s):           0.04
+Sum of costs:           57
+Expanded nodes:         21
+Generated nodes:        41
+
+
+instances/test_47.txt
+Method used:            BCBS
+Weight used (high/low): 1/1.2
+Heuristics for h_c:     h1
+CPU time (s):           93.70
+Sum of costs:           65
+Expanded nodes:         25932
+Generated nodes:        50509
+
+
+instances/test_48.txt
+Method used:            BCBS
+Weight used (high/low): 1/1.2
+Heuristics for h_c:     h1
+CPU time (s):           0.00
+Sum of costs:           36
+Expanded nodes:         2
+Generated nodes:        3
+
+
+instances/test_49.txt
+Method used:            BCBS
+Weight used (high/low): 1/1.2
+Heuristics for h_c:     h1
+CPU time (s):           0.01
+Sum of costs:           42
+Expanded nodes:         6
+Generated nodes:        11
+
+
+instances/test_50.txt
+Method used:            BCBS
+Weight used (high/low): 1/1.2
+Heuristics for h_c:     h1
+CPU time (s):           0.06
+Sum of costs:           48
+Expanded nodes:         14
+Generated nodes:        26
+
+
+instances/largeTest_1.txt
+Method used:            BCBS
+Weight used (high/low): 1/1.5
+Heuristics for h_c:     h1
+CPU time (s):           20.27
+Sum of costs:           151
+Expanded nodes:         611
+Generated nodes:        1221
+
+
