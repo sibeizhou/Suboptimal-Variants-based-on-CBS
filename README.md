@@ -104,16 +104,6 @@ Run the smoke tests from the repository root:
 python -m unittest discover -s tests
 ```
 
-## Example Output
-
-```text
-Found a solution!
-CPU time (s):    0.00
-Sum of costs:    24
-Expanded nodes:  2
-Generated nodes: 3
-```
-
 ## Implementation Highlights
 
 - Models MAPF conflicts as vertex and edge collisions.
