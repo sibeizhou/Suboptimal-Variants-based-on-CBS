@@ -27,21 +27,53 @@ This project explores that trade-off:
 - Two conflict heuristics are supported for focal-list ordering:
   number of conflicts and number of conflicting agents.
 
+## Report Summary
+
+The accompanying report studies whether CBS can be made faster and less
+memory-intensive by relaxing either the high-level constraint-tree search, the
+low-level A* search, or both. The project evaluates two CBS-based
+bounded-suboptimal solvers:
+
+- **BCBS (Bounded Suboptimal CBS)** uses focal search at the high level and/or
+  low level. Nodes whose costs fall within a weighted bound of the current best
+  candidate are placed in a focal list and ordered by a conflict heuristic.
+- **ECBS (Enhanced CBS)** uses a shared focal-search weight across both levels,
+  making the bounded-suboptimal configuration simpler to tune.
+
+The experiments compare solver variants across CPU time, sum of costs, generated
+nodes, and expanded nodes. The report uses CBS as the optimal baseline and
+evaluates weights `1`, `1.2`, and `1.5`, where weight `1` is equivalent to
+standard CBS.
+
+## Key Findings
+
+- Bounded-suboptimal CBS variants generally reduce runtime and search effort
+  compared with optimal CBS, with only a small increase in solution cost.
+- The `h2` heuristic, which counts the number of agents involved in conflicts,
+  is more robust across instances than simply counting total conflicts (`h1`).
+- Low-level focal search often reduces generated/expanded nodes more strongly,
+  while high-level focal search can be faster in some weight ranges.
+- The best weights are instance-dependent. In the report's experiments,
+  `BCBS(1.2, 1.5)` achieved the strongest runtime result on one benchmark group,
+  while `ECBS(1.2)` was a strong simple setting for ECBS.
+- ECBS tends to generate fewer nodes in some cases, while BCBS can return
+  solutions faster depending on the distribution of high- and low-level weights.
+
 ## Repository Layout
 
 ```text
 .
-├── Final Project/code/code/
-│   ├── cbs.py                    # High-level CBS, BCBS, and ECBS search
-│   ├── single_agent_planner.py   # Space-time A* low-level planner
-│   ├── run_experiments.py        # CLI entry point for demos and sweeps
-│   ├── independent.py            # Independent planning baseline
-│   ├── prioritized.py            # Prioritized planning baseline
-│   └── instances/                # MAPF benchmark instances
-├── tests/test_smoke.py           # Collision-free smoke tests
-├── report.pdf                    # Full project report
-├── proposal.pdf                  # Original proposal
-└── INTERVIEW_GUIDE.md            # Chinese interview talking points
+|-- Final Project/code/
+|   |-- cbs.py                    # High-level CBS, BCBS, and ECBS search
+|   |-- single_agent_planner.py   # Space-time A* low-level planner
+|   |-- run_experiments.py        # CLI entry point for demos and sweeps
+|   |-- independent.py            # Independent planning baseline
+|   |-- prioritized.py            # Prioritized planning baseline
+|   `-- instances/                # MAPF benchmark instances
+|-- tests/test_smoke.py           # Collision-free smoke tests
+|-- report.pdf                    # Full project report
+|-- proposal.pdf                  # Original proposal
+`-- INTERVIEW_GUIDE.md            # Chinese interview talking points
 ```
 
 ## Quick Start
@@ -50,7 +82,7 @@ Use Python 3.9+.
 
 ```bash
 pip install -r requirements.txt
-cd "Final Project/code/code"
+cd "Final Project/code"
 python run_experiments.py --instance "instances/test_40.txt" --solver CBS --method CBS --batch
 ```
 
@@ -102,4 +134,3 @@ A concise resume bullet:
 > Implemented and evaluated CBS, BCBS, and ECBS solvers for Multi-Agent Path
 > Finding in Python, using space-time A* and focal-search heuristics to reduce
 > high-level constraint-tree expansion while preserving collision-free paths.
-

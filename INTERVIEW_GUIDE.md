@@ -33,7 +33,7 @@ Implemented CBS, BCBS, and ECBS solvers for Multi-Agent Path Finding in Python, 
 ## Demo 命令
 
 ```bash
-cd "Final Project/code/code"
+cd "Final Project/code"
 python run_experiments.py --instance "instances/test_40.txt" --solver CBS --method CBS --batch
 python run_experiments.py --instance "instances/test_40.txt" --solver CBS --method BCBS --hc 1 --high-weight 1.5 --low-weight 1.5 --batch
 ```

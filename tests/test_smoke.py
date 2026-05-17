@@ -4,7 +4,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CODE_DIR = ROOT / "Final Project" / "code" / "code"
+CODE_DIR = ROOT / "Final Project" / "code"
 sys.path.insert(0, str(CODE_DIR))
 
 from cbs import CBSSolver, detect_collisions
